@@ -1,4 +1,4 @@
-#ECUnionSDK接入文档
+# ECUnionSDK接入文档
 ----
 目录
 -----
@@ -53,7 +53,7 @@ dependencies {
 
 
 
-###3.1 SDK的Application初始化（必接）
+### 3.1 SDK的Application初始化（必接）
 ECUnionSDK类:
 
 | 方法名 | 说明 |
@@ -98,7 +98,7 @@ public class GameApp extends Application {
 
 
 
-###3.2 SDK主activity初始化（必接）
+### 3.2 SDK主activity初始化（必接）
 
 ECUnionSDK类:
 
@@ -193,7 +193,7 @@ public class MainActivity extends Activity {
 
 
 
-###3.3 开屏广告
+### 3.3 开屏广告
 
 ECSplashMgr类:
 
@@ -237,7 +237,7 @@ ECSplashMgr类:
 ```
 
 
-####3.3.1开屏接入方式一：自定义Activity继承ECSplashActivity来展示闪屏。推荐此方式接入闪屏！
+#### 3.3.1开屏接入方式一：自定义Activity继承ECSplashActivity来展示闪屏。推荐此方式接入闪屏！
 示例如下:
 ```java
 import android.os.Bundle;
@@ -307,7 +307,7 @@ public class GameSplashActivity extends ECSplashActivity{
 }
 ```
 
-####3.3.2开屏接入方式二：原生activity中调用闪屏接口展示闪屏
+#### 3.3.2开屏接入方式二：原生activity中调用闪屏接口展示闪屏
 
 示例如下:
 ```java
@@ -443,7 +443,7 @@ public  class GameSplashActivity extends Activity {
 ```
 
 
-###3.4 广告接口
+### 3.4 广告接口
 
  ECAd类
 
@@ -465,7 +465,7 @@ public  class GameSplashActivity extends Activity {
 | public void onSaveInstanceState()|保存activity状态，广告进行处理相应逻辑|
 | public void onConfigurationChanged()|当Configuration发生变化，广告进行处理相应逻辑
 
-####3.4.1 广告类型说明
+#### 3.4.1 广告类型说明
 | 广告类型 | 说明 |
 | ---- | ---- |
 | ECAdType.BANNER | 横幅  |
@@ -475,7 +475,7 @@ public  class GameSplashActivity extends Activity {
 | ECAdType.REWARDVIDEO | 激励视频 |
 | ECAdType.FULLVIDEO | 全屏视频 |
 
-###3.5 广告回调接口说明
+### 3.5 广告回调接口说明
 ```java
     public interface IECAdListener {
         void onAdShow(); //广告展示时回调
@@ -1143,7 +1143,7 @@ public class GameMainActivity extends Activity {
 }
 ```
 
-###4 退出接口（必接）
+### 4 退出接口（必接）
 
 ```
 在主activity添加以下方法即可。
@@ -1181,7 +1181,7 @@ public class GameMainActivity extends Activity {
 
 ```
 
-###5 登录接口（必接）
+### 5 登录接口（必接）
 
 ```
 在主activity添加以下接口使用
@@ -1217,7 +1217,7 @@ public class GameMainActivity extends Activity {
         });
     }
 ```
-###6 支付接口（选接）
+### 6 支付接口（选接）
 
 ```
 在主activity添加以下接口使用
@@ -1253,7 +1253,7 @@ public class GameMainActivity extends Activity {
     }
 ```
 
-###7  补单接口（如果有支付必接）
+### 7  补单接口（如果有支付必接）
 
 ```
 在主activity添加以下接口使用
@@ -1293,7 +1293,7 @@ public class GameMainActivity extends Activity {
 ```
 
 
-###9  上报用户游戏信息接口（如有要求，请接入）
+### 9  上报用户游戏信息接口（如有要求，请接入）
 
 ```
 在主activity添加以下接口使用
@@ -1322,7 +1322,7 @@ public class GameMainActivity extends Activity {
     }
 ```
 
-###10  自定义计数事件统计接口（选接）
+### 10  自定义计数事件统计接口（选接）
 
 ```
 在主activity添加以下接口使用。
@@ -1348,7 +1348,7 @@ public class GameMainActivity extends Activity {
 ```
 
 
-###11  自定义计算事件统计接口（选接）
+### 11  自定义计算事件统计接口（选接）
 
 ```
 在主activity添加以下接口使用。
