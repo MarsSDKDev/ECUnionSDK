@@ -1,1 +1,1 @@
-include ':app', ':ECUnionLibrary', ':appSigmob', ':appVungle', ':appTapjoy'
+include ':app', ':ECUnionLibrary'
