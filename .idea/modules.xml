@@ -5,9 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/ECUnionLibrary/ECUnionLibrary.iml" filepath="$PROJECT_DIR$/ECUnionLibrary/ECUnionLibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/ECUnionSDK.iml" filepath="$PROJECT_DIR$/ECUnionSDK.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/appSigmob/appSigmob.iml" filepath="$PROJECT_DIR$/appSigmob/appSigmob.iml" />
-      <module fileurl="file://$PROJECT_DIR$/appTapjoy/appTapjoy.iml" filepath="$PROJECT_DIR$/appTapjoy/appTapjoy.iml" />
-      <module fileurl="file://$PROJECT_DIR$/appVungle/appVungle.iml" filepath="$PROJECT_DIR$/appVungle/appVungle.iml" />
+      <module fileurl="file://D:\WorkData\Workspaces\workspace_as\ECUnionSDK\appSigmob\appSigmob.iml" filepath="D:\WorkData\Workspaces\workspace_as\ECUnionSDK\appSigmob\appSigmob.iml" />
+      <module fileurl="file://D:\WorkData\Workspaces\workspace_as\ECUnionSDK\appTapjoy\appTapjoy.iml" filepath="D:\WorkData\Workspaces\workspace_as\ECUnionSDK\appTapjoy\appTapjoy.iml" />
+      <module fileurl="file://D:\WorkData\Workspaces\workspace_as\ECUnionSDK\appVungle\appVungle.iml" filepath="D:\WorkData\Workspaces\workspace_as\ECUnionSDK\appVungle\appVungle.iml" />
     </modules>
   </component>
 </project>
